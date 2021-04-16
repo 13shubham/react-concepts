@@ -1,0 +1,19 @@
+.Refresh {
+    text-align: center;
+  }
+
+.Refresh-logo {
+    height: 10vmin;
+    pointer-events: none;
+  }
+
+  .refresh__icons svg {
+    height: 10vmin;
+    cursor: pointer;
+    transition: all ease 250ms;
+    stroke: rgba(255, 255, 255, 0.5);
+  }
+  
+  .bot__header__icons svg:hover {
+    stroke: rgba(255, 255, 255, 1);
+  }
